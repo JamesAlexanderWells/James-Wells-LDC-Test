@@ -8,7 +8,7 @@
 
 # Assumptions
 
-I was unable to find any details on how to deal with null / empty input strings and how to deal with strings transformed into empty strings so i made some assumptions:
+I made some assumptions on what to return instead of a null / empty string with null / empty input strings and strings that have been transformed into empty strings:
 
 - If a null or empty string has been inputted into the transformer code, the transformer code will return 'Invalid String'
 - In the case where the transformed string ends up being empty (such as trying to transform a string of "______" into ""), the transformer code will return 'Invalid String' because the acceptance criteria state not to return null or empty strings
