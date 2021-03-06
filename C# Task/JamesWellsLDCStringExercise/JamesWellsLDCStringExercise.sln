@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31025.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JamesWellsLDCStringExercise", "JamesWellsLDCStringExercise\JamesWellsLDCStringExercise.csproj", "{8E1E932A-966C-4439-AD78-03EE8FA689D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JamesWellsLDCStringExerciseTest", "JamesWellsLDCStringExerciseTest\JamesWellsLDCStringExerciseTest.csproj", "{BBCA048B-7C6E-4ECE-86E2-C9DE9C7222FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E1E932A-966C-4439-AD78-03EE8FA689D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E1E932A-966C-4439-AD78-03EE8FA689D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E1E932A-966C-4439-AD78-03EE8FA689D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E1E932A-966C-4439-AD78-03EE8FA689D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBCA048B-7C6E-4ECE-86E2-C9DE9C7222FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBCA048B-7C6E-4ECE-86E2-C9DE9C7222FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBCA048B-7C6E-4ECE-86E2-C9DE9C7222FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBCA048B-7C6E-4ECE-86E2-C9DE9C7222FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {42EA3E82-DBAF-418A-8272-4629939CE2E4}
+	EndGlobalSection
+EndGlobal
