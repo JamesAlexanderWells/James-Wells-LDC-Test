@@ -14,6 +14,7 @@ namespace JamesWellsLDCStringExercise
         private const string RemovePattern = @"_|4";
         private const string ContiguousPattern = "(.)\\1+";
         private const string DeduplicatedPattern = "$1";
+        private const string InvalidStringMessage = "Invalid String";
 
         public List<string> TransformStrings(List<string> stringsToTransform)
         {
@@ -26,11 +27,14 @@ namespace JamesWellsLDCStringExercise
         {
             if (string.IsNullOrEmpty(stringToTransform))
             {
-                return "Invalid String";
+                return InvalidStringMessage;
             }
             stringToTransform = ReplaceCharsExercisePattern(stringToTransform);
             stringToTransform = RemoveCharsExercisePattern(stringToTransform);
             stringToTransform = Truncate(stringToTransform, 15);
+            if (stringToTransform.Length == 0) {
+                return InvalidStringMessage;
+            }
             return stringToTransform;
         }
 

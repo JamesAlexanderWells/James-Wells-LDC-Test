@@ -11,7 +11,7 @@ namespace JamesWellsLDCStringExercise
             StringTransformer transformer = new StringTransformer();
             oldStrings.Add("AAAc91%cWwWkLq$1ci3_848v3d__K");
             oldStrings.Add("aaaA4$_jhsdfjnfvmiuegerngneriugneg");
-
+            oldStrings.Add("______");
             var reformedStrings = transformer.TransformStrings(oldStrings);
             foreach (string reformedValue in reformedStrings)
             {

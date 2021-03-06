@@ -53,5 +53,21 @@ namespace JamesWellsLDCStringExerciseTest
             Assert.AreEqual("Ac91%cWwWkLq£1c", transformerClass.TransformStrings(testCollection)[0]);
             Assert.AreEqual("jnsdfbfb£bdbafo", transformerClass.TransformStrings(testCollection)[1]);
         }
+
+        [TestMethod]
+        public void ShouldHandleNullAndEmptyInputStrings()
+        {
+            testCollection.Add("");
+            testCollection.Add(null);
+            Assert.AreEqual("Invalid String", transformerClass.TransformStrings(testCollection)[0]);
+            Assert.AreEqual("Invalid String", transformerClass.TransformStrings(testCollection)[1]);
+        }
+
+        [TestMethod]
+        public void ShouldHandleEmptyOutputStrings()
+        {
+            testCollection.Add("_____");
+            Assert.AreEqual("Invalid String", transformerClass.TransformStrings(testCollection)[0]);
+        }
     }
 }
